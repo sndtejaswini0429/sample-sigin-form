@@ -1,0 +1,54 @@
+<div class="page">
+<title>experiment</title>
+<h1 class="greet">Hello There ...  </h1>
+<input class="inp" type="text" placeholder="enter your username">
+<p class="p" >Note: You can enter a valid email address too &#x1F44D;</p>
+<input class="inp" type="password" placeholder="enter your password">
+<h4 class="text"> &#10036; your passwords are safe with us and no one can access them &#128162; </h4>
+<br>
+<button class="button">submit</button>
+
+</div>
+
+<style>
+.page{
+  background-image: url("https://cdn2.f-cdn.com/contestentries/1476645/32188263/5c7d1750c9de4_thumb900.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.greet {
+  font-family: cursive;
+  margin-left: 150px;
+  font-size: 25px;
+  color: azure;
+}
+.p{
+  padding: 8px;
+  font-size: 18px;
+  margin-left: 60px;
+  font-style: italic;
+
+}
+.inp{
+  border-radius : 11px;
+  padding: 8px;
+  margin: 15px;
+  margin-left: 100px;
+  font-size: 20px;
+  border: 1.5px solid black;
+  background: honeydew;
+}
+.text{
+  margin-left: 60px;
+  font-style: italic;
+  padding: 10px;
+}
+.button{
+  margin-bottom: 15px;
+  margin-left: 200px;
+  padding: 5px;
+  border-style: groove;
+  border-radius: 10px;
+}
+</style>
